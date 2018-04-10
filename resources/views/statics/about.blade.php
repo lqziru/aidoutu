@@ -1,4 +1,4 @@
-@extends("layout.page")
+@extends("layout.main")
 
 @section('title', '关于我们')
 
