@@ -14,4 +14,7 @@
 Route::get('/', 'StaticPagesController@home')->name('home');
 Route::get('/help', 'StaticPagesController@help')->name('help');
 Route::get('/about', 'StaticPagesController@about')->name('about');
-Route::get('/signup', 'UserController@signup')->name('signup');
+Route::get('/signup', 'UsersController@signup')->name('signup');
+
+//把表和控制器连接起来，生成一套约定协议
+Route::resource('users', 'UsersController');

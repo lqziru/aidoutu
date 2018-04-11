@@ -6,7 +6,8 @@
         <div class="fr pt2">
             <ul class="nav">
                 <li><a href="{{ route('help') }}">帮助</a></li>
-                <li><a href="{{route('signup')}}">登录</a></li>
+                <li><a href="{{route('users.show', 1)}}">登录</a></li>
+                <li><a href="{{route('signup')}}">注册</a></li>
             </ul>
         </div>
     </div>
