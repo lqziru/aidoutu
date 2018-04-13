@@ -217,11 +217,11 @@ ul.grid.gx-5 li{width:20%}
 @media screen and (max-width:760px){ul.grid.gxs li{width:100%}
 ul.grid.gxs-2 li{width:50%}
 }
-ul.nav{margin:0;padding:0;letter-spacing:-5px}
-ul.nav li{display:inline-block;min-width:60px;list-style:none;letter-spacing:normal;text-align:center;}
-ul.nav li>a,ul.nav li>span{display:block}
-ul.nav li>a:hover{color:red}
-ul.nav li.current{color:red}
+ul.nav{margin:0;padding:0;letter-spacing:-5px;position:relative;}
+ul.nav>li{display:inline-block;min-width:60px;list-style:none;letter-spacing:normal;text-align:center;}
+ul.nav>li>a,ul.nav li>span{display:block}
+ul.nav>li>a:hover{color:red}
+ul.nav>li.current{color:red}
 ul.vlist{margin:0;padding:0;list-style:none;}
 .vlist li{overflow:hidden;height:28px;line-height:28px}
 .circle,.radius,.round{overflow:hidden}
